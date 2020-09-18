@@ -22,17 +22,17 @@ class IconPickerDetailViewController: UIViewController {
     
     
     @IBAction func trashCanButtonTapped(_ sender: UIButton) {
-        delegate?.iconPickerButtonTapped(image: sender.currentImage)
+        delegate?.iconPickerButtonTapped(image: sender.currentImage!)
         dismiss(animated: true)
     }
     
     @IBAction func stormcloudButtonTapped(_ sender: UIButton) {
-        delegate?.iconPickerButtonTapped(image: sender.currentImage)
+        delegate?.iconPickerButtonTapped(image: sender.currentImage!)
         dismiss(animated: true)
     }
     
     @IBAction func lightningboltButtonTapped(_ sender: UIButton) {
-        delegate?.iconPickerButtonTapped(image: sender.currentImage)
+        delegate?.iconPickerButtonTapped(image: sender.currentImage!)
         dismiss(animated: true)
     }
     
